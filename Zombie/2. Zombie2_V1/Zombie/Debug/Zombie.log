@@ -1,0 +1,31 @@
+﻿Build started 8/16/2019 9:59:03 AM.
+     1>Project "C:\SCS\Zombie\Zombie\Zombie.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"C:\SCS\SFML-2.0\include" /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Source.cpp
+         Source.cpp
+     1>c:\scs\zombie\zombie\animation.h(34): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\scs\zombie\zombie\header.h(58): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:\scs\zombie\zombie\header.h(58): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\scs\zombie\zombie\player.h(55): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\scs\zombie\zombie\zombie.h(54): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\scs\zombie\zombie\source.cpp(48): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>c:\scs\zombie\zombie\source.cpp(61): warning C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(233) : see declaration of 'freopen'
+     1>c:\scs\zombie\zombie\source.cpp(130): warning C4172: returning address of local variable or temporary
+     1>c:\scs\zombie\zombie\source.cpp(192): warning C4172: returning address of local variable or temporary
+     1>c:\scs\zombie\zombie\source.cpp(220): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\scs\zombie\zombie\source.cpp(250): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\scs\zombie\zombie\source.cpp(277): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\scs\zombie\zombie\source.cpp(647): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\scs\zombie\zombie\source.cpp(909): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\scs\zombie\zombie\source.cpp(927): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\scs\zombie\zombie\source.cpp(1154): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\scs\zombie\zombie\source.cpp(1409): warning C4007: 'WinMain' : must be '__stdcall'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\SCS\Zombie\Debug\Zombie.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\SCS\SFML-2.0\lib" "sfml-graphics-d.lib" "sfml-window-d.lib" "sfml-system-d.lib" "sfml-audio-d.lib" "sfml-network-d.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\SCS\Zombie\Debug\Zombie.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\SCS\Zombie\Debug\Zombie.lib" /MACHINE:X86 Debug\Source.obj
+     1>LINK : fatal error LNK1168: cannot open C:\SCS\Zombie\Debug\Zombie.exe for writing
+     1>Done Building Project "C:\SCS\Zombie\Zombie\Zombie.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:04.03
